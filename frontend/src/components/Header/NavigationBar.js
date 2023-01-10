@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import '../assets/css/logo.css';
+import '../../assets/css/Logo.css';
 import { Link, useLocation } from 'react-router-dom';
 
 const NavigationBar = () => {
