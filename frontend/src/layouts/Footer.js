@@ -4,12 +4,12 @@ import SubFooter from '../components/Footer/SubFooter';
 
 const Footer = () => {
   return (
-    <>
+    <div className='bg-dark'>
       <div className='py-4 bg-black'>
         <MainFooter/>
       </div>
       <SubFooter/>
-    </>
+    </div>
   )
 }
 

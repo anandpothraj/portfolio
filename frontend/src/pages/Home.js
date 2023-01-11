@@ -3,9 +3,9 @@ import Profile from '../components/Home/Profile';
 
 const Home = () => {
   return (
-    <>
+    <div className="bg-dark">
       <Profile/>
-    </>
+    </div>
   );
 };
 
