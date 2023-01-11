@@ -1,8 +1,11 @@
 import React from "react";
+import Profile from '../components/Home/Profile';
 
 const Home = () => {
   return (
-    <div style={{minHeight:"80vh"}}>Home</div>
+    <>
+      <Profile/>
+    </>
   );
 };
 
