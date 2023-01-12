@@ -1,0 +1,64 @@
+.primaryOrange{
+    color:#ff5403;
+}
+.primaryBlue{
+    color:#84a1ff;
+}
+.knowMore{
+    font-size: 18px;
+}
+.follow{
+    margin-right: 5px;
+}
+.logo{
+    font-size: 25px;
+}
+.socialIcon{
+    font-size : 25px !important;
+    color : white;
+    cursor: pointer;
+}
+
+.socialIcon:hover{
+    color: rgb(48, 144, 147);
+}
+
+.btnDiv{
+    width: 230px !important;
+}
+
+.emailBtn{
+    color: black !important;
+    background-color: #84a1ff !important;
+    border: 2px solid #84a1ff !important;
+}
+
+.resumeBtn{
+    color: black !important;
+    background-color: #ff5403 !important;
+    border: 2px solid #ff5403 !important;
+}
+
+.emailBtn:hover{
+    border: 2px solid #84a1ff !important;
+    background-color: transparent !important;
+    color: #7e9cfd !important;
+}
+
+.resumeBtn:hover{
+    border: 2px solid #ff5403 !important;
+    background-color: transparent !important;
+    color:#ff5403 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .info{
+        text-align: center !important;
+    }
+    .socials{
+        text-align: center !important;
+    }
+    .socialIcon{
+        font-size : 20px !important;
+    }
+}

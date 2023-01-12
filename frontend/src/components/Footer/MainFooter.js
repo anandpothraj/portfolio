@@ -20,11 +20,11 @@ const MainFooter = () => {
                     <p>Visits : <Badge bg="warning" text="dark">12345</Badge></p>
                 </div>
                 <div className="d-flex m-md-auto py-3">
-                    <a href='https://twitter.com/PothrajAnand' target="_blank" rel="noreferrer"><BsTwitter className="m-2" style={style}/></a>
+                    <a href="https://www.linkedin.com/in/anand-pothraj-599910195" target="_blank" rel="noreferrer"><BsLinkedin className="m-2" style={style}/></a>
                     <a href="https://github.com/anandpothraj" target="_blank" rel="noreferrer"><BsGithub className="m-2" style={style}/></a>
+                    <a href='https://twitter.com/PothrajAnand' target="_blank" rel="noreferrer"><BsTwitter className="m-2" style={style}/></a>
                     <a href="https://dev.to/anandpothraj" target="_blank" rel="noreferrer"><FaDev className="m-2" style={style}/></a>
                     <a href="https://medium.com/@anandpothraj11052001" target="_blank" rel="noreferrer"><BsMedium className="m-2" style={style}/></a>
-                    <a href="https://www.linkedin.com/in/anand-pothraj-599910195" target="_blank" rel="noreferrer"><BsLinkedin className="m-2" style={style}/></a>
                 </div>
             </div>
             <hr className='w-75 m-auto text-white'/>
