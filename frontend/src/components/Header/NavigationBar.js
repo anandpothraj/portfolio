@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import '../../assets/css/Logo.css';
+import './Header.css';
 import { Link, useLocation } from 'react-router-dom';
 
 const NavigationBar = () => {
@@ -22,7 +22,7 @@ const NavigationBar = () => {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="/" className='brandDiv'><p className="line m-auto">&lt;Anand/&gt;</p></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor:"#ff5403", color:"black"}} />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav h-100">
           <Nav className="me-auto">
           </Nav>
