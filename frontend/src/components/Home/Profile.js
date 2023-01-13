@@ -6,6 +6,8 @@ import { BsTwitter, BsGithub, BsMedium, BsLinkedin, BsLink45Deg, BsDownload } fr
 import { FiMail } from 'react-icons/fi';
 import { FaDev } from 'react-icons/fa';
 import './Profile.css';
+import TypeWriterEffect from 'react-typewriter-effect';
+import Resume from '../../assets/documents/Anand_Pothraj_Resume.pdf';
 
 const Profile = () => {
 
@@ -13,13 +15,29 @@ const Profile = () => {
     <>
       <div className='m-auto col-12 col-md-9 d-flex text-light flex-column-reverse flex-md-row py-1 py-md-5'>
         <div className="w-100 w-md-50 m-auto p-2">
-          <div className="info">
+          <div className="center">
             <h5 className='my-2'>Hey!</h5>
             <h1 className='my-2'>I'm <b className='primaryOrange'>Anand Pothraj</b></h1>
-            <h2 className='my-2 primaryBlue'>Full Stack Developer</h2>
+            <div className="d-flex m-auto">
+            <div className='my-2 primaryBlue d-inline-flex mx-auto mx-md-0'>
+              <TypeWriterEffect
+                className="Anand"
+                startDelay={1000}
+                cursorColor="#84a1ff"
+                multiText={[
+                  "Full Stack Developer",
+                  "OS Contributer",
+                  "MERN Stack Developer"
+                ]}
+                multiTextDelay={1000}
+                typeSpeed={60}
+                multiTextLoop
+              />
+            </div>
+            </div>
             <p className='my-2 text-secondary font-weight-normal'>I have a passion for technology</p>
           </div>
-          <div className="my-3 socials">
+          <div className="my-3 center">
             <p className='knowMore'>
               <Link to='/about' className='text-decoration-none'>
                 <span className='primaryOrange'>Know more</span>
@@ -37,13 +55,12 @@ const Profile = () => {
             </div>
           </div>
           <div className="my-3 p-1 btnDiv mx-auto mx-md-0">
-              <Button className='emailBtn btn-sm'><FiMail className='mx-1 logo2'/>Email Me</Button>
-              <Button className='resumeBtn btn-sm mx-3'><BsDownload className='mx-1 logo2'/>Resume</Button>
+              <Button className='emailBtn btn-sm' href="mailto:pothrajanand@gmail.com"><FiMail className='mx-1 logo2'/>Email Me</Button>
+              <Button className='resumeBtn btn-sm mx-0 mx-md-3' href={Resume} target="_blank" rel="noopener noreferrer"><BsDownload className='mx-1 logo2'/>Resume</Button>
           </div>
         </div>
         <div className="w-75 w-md-50 m-auto my-1">
-          <Image src={Avatar2} fluid alt="avatar1" className='d-none d-md-block m-auto'/>
-          <Image src={Avatar2} fluid alt="avatar2" className='d-block d-md-none m-auto'/>
+          <Image src={Avatar2} fluid alt="avatar1" className='d-block m-auto'/>
         </div>
       </div>
     </>
