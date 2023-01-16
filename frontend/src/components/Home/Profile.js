@@ -5,7 +5,7 @@ import Avatar2 from '../../assets/images/Secondary.png';
 import { BsTwitter, BsGithub, BsMedium, BsLinkedin, BsLink45Deg, BsDownload } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
 import { FaDev } from 'react-icons/fa';
-import './Profile.css';
+import './Home.css';
 import TypeWriterEffect from 'react-typewriter-effect';
 import Resume from '../../assets/documents/Anand_Pothraj_Resume.pdf';
 
