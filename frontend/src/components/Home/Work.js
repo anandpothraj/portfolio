@@ -15,7 +15,7 @@ const Work = () => {
                 start = start + 1;
                 setProject(start);
             }
-        }, 50);
+        }, 100);
     },[]);
 
     return (
