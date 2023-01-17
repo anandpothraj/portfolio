@@ -2,13 +2,17 @@ import React from "react";
 import Work from "../components/Home/Work";
 import Profile from '../components/Home/Profile';
 import RecentProjects from "../components/Home/RecentProjects";
+import Hire from "../components/Home/Hire";
+import Interested from "../components/Home/Interested";
 
 const Home = () => {
   return (
-    <div className="bg-dark">
+    <div>
       <Profile/>
       <Work/>
       <RecentProjects/>
+      <Hire/>
+      <Interested/>
     </div>
   );
 };

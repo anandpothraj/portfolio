@@ -16,6 +16,7 @@ const App = () => {
   return (
     <Router>
         <Header/>
+        <div className="bg-dark p-1">
         <Routes>
           <Route path='/' element={<Home/>} exact/>
           <Route path='/projects' element={<Projects/>} exact/>
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/privacy-policy' element={<Privacy/>} exact/>
           <Route path='/feedback' element={<Feedback/>} exact/>
         </Routes>
+        </div>
         <Footer/>
     </Router>
   )
