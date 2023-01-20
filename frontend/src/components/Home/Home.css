@@ -19,6 +19,10 @@
 .projectCardBg{
     background-color: #212529;
 }
+.testBg{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
 .knowMore{
     font-size: 18px;
 }
@@ -108,6 +112,7 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .swiper-slide img {
     display: block;
@@ -116,16 +121,18 @@
     object-fit: cover;
 }
 .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     text-align: center;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 40px;
     color: #000;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    border: 3px solid white;
+    padding: 5px;
 }
 .swiper-pagination-bullet-active {
-    color: #fff;
-    background: #007aff;
+    color: #fff !important;
+    background: white !important; 
 }

@@ -12,8 +12,8 @@ const Home = () => {
       <Profile/>
       <Work/>
       <RecentProjects/>
-      <Hire/>
       <Testimonial/>
+      <Hire/>
       <Interested/>
     </div>
   );
