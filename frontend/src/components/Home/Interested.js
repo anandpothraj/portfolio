@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
-import { Button } from 'react-bootstrap';
 import { FiMail } from 'react-icons/fi';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 const Interested = () => {
   return (
@@ -13,7 +13,7 @@ const Interested = () => {
             <Button className='seeMoreBtn my-2 mx-auto m-md-auto'><Link to='/projects' className='text-decoration-none text-white hoverBlack'><b>See More Projects</b></Link></Button>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Interested;

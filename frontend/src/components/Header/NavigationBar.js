@@ -1,7 +1,7 @@
-import Container from 'react-bootstrap/Container';
+import './Header.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './Header.css';
+import Container from 'react-bootstrap/Container';
 import { Link, useLocation } from 'react-router-dom';
 
 const NavigationBar = () => {
@@ -11,12 +11,12 @@ const NavigationBar = () => {
   const linkCss = {
     textDecoration:"none",
     color:"grey"
-  }
+  };
 
   const active = {
     textDecoration:"none",
     color:"#ff5403"
-  }
+  };
 
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -37,6 +37,6 @@ const NavigationBar = () => {
       </Container>
     </Navbar>
     );
-}
+};
 
 export default NavigationBar;

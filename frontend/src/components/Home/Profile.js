@@ -1,13 +1,13 @@
-import React from 'react';
-import { Button, Image } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import Avatar2 from '../../assets/images/Secondary.png';
-import { BsTwitter, BsGithub, BsMedium, BsLinkedin, BsLink45Deg, BsDownload } from 'react-icons/bs';
-import { FiMail } from 'react-icons/fi';
-import { FaDev } from 'react-icons/fa';
 import './Home.css';
+import React from 'react';
+import { FaDev } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import { Button, Image } from 'react-bootstrap';
 import TypeWriterEffect from 'react-typewriter-effect';
+import Avatar2 from '../../assets/images/Secondary.png';
 import Resume from '../../assets/documents/Anand_Pothraj_Resume.pdf';
+import { BsTwitter, BsGithub, BsMedium, BsLinkedin, BsLink45Deg, BsDownload } from 'react-icons/bs';
 
 const Profile = () => {
 

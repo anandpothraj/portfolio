@@ -1,16 +1,16 @@
-import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './layouts/Header';
-import Footer from './layouts/Footer';
+import React from 'react';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
 import Blogs from './pages/Blogs';
 import About from './pages/About';
-import Contact from './pages/Contact';
 import Report from './pages/Report';
+import Header from './layouts/Header';
+import Footer from './layouts/Footer';
+import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Feedback from './pages/Feedback';
+import Projects from './pages/Projects';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -30,7 +30,7 @@ const App = () => {
         </div>
         <Footer/>
     </Router>
-  )
-}
+  );
+};
 
 export default App;

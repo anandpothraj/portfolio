@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SubFooter = () => {
   return (
@@ -9,7 +9,7 @@ const SubFooter = () => {
             <p className='my-2 mx-md-auto'>v1.0.0</p>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default SubFooter
+export default SubFooter;

@@ -1,6 +1,6 @@
 import React from 'react';
-import MainFooter from '../components/Footer/MainFooter';
 import SubFooter from '../components/Footer/SubFooter';
+import MainFooter from '../components/Footer/MainFooter';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <SubFooter/>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;

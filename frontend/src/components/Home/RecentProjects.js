@@ -1,13 +1,13 @@
-import React from 'react';
-import { Button, Image } from 'react-bootstrap';
 import './Home.css';
+import React from 'react';
+import { TbApi } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
+import { IoEyeSharp } from 'react-icons/io5';
+import { Button, Image } from 'react-bootstrap';
+import { FaReact, FaBootstrap } from 'react-icons/fa';
 import RecentProject1 from '../../assets/images/RecentProject1.png';
 import RecentProject2 from '../../assets/images/RecentProject2.png';
-import { FaReact, FaBootstrap } from 'react-icons/fa';
 import { BsFillBarChartFill, BsInfoCircleFill } from 'react-icons/bs';
-import { TbApi } from 'react-icons/tb';
-import { IoEyeSharp } from 'react-icons/io5';
 
 const RecentProjects = () => {
     
@@ -61,8 +61,8 @@ const RecentProjects = () => {
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default RecentProjects;
 
