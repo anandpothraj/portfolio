@@ -14,8 +14,8 @@ const RecentProjects = () => {
   return (
     <div className='text-light col-11 col-md-9 m-auto py-1'>
         <div className="d-flex justify-content-between my-1 my-md-4">
-            <h1 className='primaryLightBlue'>Recent Projects</h1>
-            <Link to='/projects'>
+            <h1 className='primaryLightBlue w-50'>Recent Projects</h1>
+            <Link to='/projects' className='my-auto'>
                 <Button className='btn-sm px-md-3 py-md-2' variant='outline-warning'>View More</Button>
             </Link>
         </div>

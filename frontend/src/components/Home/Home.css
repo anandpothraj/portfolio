@@ -40,9 +40,6 @@
     color : white;
     cursor: pointer;
 }
-.socialIcon:hover{
-    color: rgb(48, 144, 147);
-}
 .emailBtn{
     color: black !important;
     background-color: #84a1ff !important;
@@ -57,39 +54,10 @@
     background-color:transparent !important;
     border: 2px solid white !important;
 }
-.emailBtn:hover{
-    border: 2px solid #84a1ff !important;
-    background-color: transparent !important;
-    color: #7e9cfd !important;
-}
-.resumeBtn:hover{
-    border: 2px solid #ff5403 !important;
-    background-color: transparent !important;
-    color:#ff5403 !important;
-}
-.seeMoreBtn:hover{
-    background-color:white !important;
-    color: black !important;
-}
-.hoverGrey:hover{
-    background-color: lightgrey !important;
-}
-.hoverBlack:hover{
-    color: black !important;
+.testimonialImage{
+    width: 25% !important;
 }
 
-@media screen and (max-width: 767px) {
-    .center{
-        text-align: center !important;
-    }
-    .socialIcon{
-        font-size : 20px !important;
-    }
-    .btnDiv{
-        display: flex !important;
-        justify-content: space-around !important;
-    }
-}
 /* Css for testimonial section */
 .swiper {
     width: 100%;
@@ -135,4 +103,44 @@
 .swiper-pagination-bullet-active {
     color: #fff !important;
     background: white !important; 
+}
+
+.socialIcon:hover{
+    color: rgb(48, 144, 147);
+}
+.emailBtn:hover{
+    border: 2px solid #84a1ff !important;
+    background-color: transparent !important;
+    color: #7e9cfd !important;
+}
+.resumeBtn:hover{
+    border: 2px solid #ff5403 !important;
+    background-color: transparent !important;
+    color:#ff5403 !important;
+}
+.seeMoreBtn:hover{
+    background-color:white !important;
+    color: black !important;
+}
+.hoverGrey:hover{
+    background-color: lightgrey !important;
+}
+.hoverBlack:hover{
+    color: black !important;
+}
+
+@media screen and (max-width: 767px) {
+    .center{
+        text-align: center !important;
+    }
+    .socialIcon{
+        font-size : 20px !important;
+    }
+    .btnDiv{
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+    .testimonialImage{
+        width: 50% !important;
+    }
 }
