@@ -1,7 +1,7 @@
+import './Home.css';
 import React, { useState, useEffect } from 'react';
 import { Container, Image } from 'react-bootstrap';
 import WorkImg from '../../assets/images/Achievement.gif';
-import './Home.css'
 
 const Work = () => {
 
@@ -36,7 +36,7 @@ const Work = () => {
                 </Container>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Work;

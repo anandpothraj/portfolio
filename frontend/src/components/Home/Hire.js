@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
+import Workaholic from '../../assets/images/Workaholic.gif';
 import Communicative from '../../assets/images/Communicative.gif';
 import Collaborative from '../../assets/images/Collaborative.gif';
-import Workaholic from '../../assets/images/Workaholic.gif';
 import SelfMotivated from '../../assets/images/SelfMotivated.gif';
 
 const Hire = () => {
@@ -40,7 +40,7 @@ const Hire = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Hire;

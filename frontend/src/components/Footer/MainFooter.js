@@ -1,8 +1,8 @@
 import React from 'react';
-import { Badge } from 'react-bootstrap';
 import { FaDev } from 'react-icons/fa';
-import { BsTwitter, BsGithub, BsMedium, BsLinkedin } from 'react-icons/bs';
+import { Badge } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { BsTwitter, BsGithub, BsMedium, BsLinkedin } from 'react-icons/bs';
 
 const MainFooter = () => {
 
@@ -10,7 +10,7 @@ const MainFooter = () => {
         fontSize:"25px",
         cursor:"pointer",
         color:"white"
-    }
+    };
 
     return (
         <div className='text-light bg-black p-3 p-md-5'>
@@ -34,7 +34,7 @@ const MainFooter = () => {
                 <p><Link to="/privacy-policy" className='text-decoration-none text-light'>Privacy Policy</Link></p>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default MainFooter
+export default MainFooter;

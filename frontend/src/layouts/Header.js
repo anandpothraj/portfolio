@@ -8,7 +8,7 @@ const Header = () => {
       <ContactPrompt/>
       <NavigationBar/>
     </div>
-  )
+  );
 };
 
 export default Header;

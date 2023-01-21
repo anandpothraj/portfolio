@@ -1,11 +1,11 @@
-import "swiper/css";
-import "swiper/css/pagination";
-import 'swiper/css/autoplay';
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper";
-import { Image } from 'react-bootstrap';
 import "./Home.css";
+import "swiper/css";
+import 'swiper/css/autoplay';
+import "swiper/css/pagination";
+import React from "react";
+import { Image } from 'react-bootstrap';
+import { Autoplay, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Avatar1 from '../../assets/images/Avatar1.png';
 import Avatar2 from '../../assets/images/Avatar2.png';
 import Avatar3 from '../../assets/images/Avatar3.jfif';
@@ -96,7 +96,7 @@ const Testimonial = () => {
                 </SwiperSlide>
             </Swiper>
         </div>
-    )
-}
+    );
+};
 
 export default Testimonial;
