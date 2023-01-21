@@ -46,7 +46,7 @@ const Profile = () => {
               <span className='text-secondary'>about me</span>
             </p>
             <div className="my-1 my-md-4">
-                <h5 className='d-inline follow'>Follow Me</h5>
+                <h5 className='d-md-inline follow'>Follow Me</h5>
                 <a href="https://www.linkedin.com/in/anand-pothraj-599910195" target="_blank" rel="noreferrer"><BsLinkedin className="m-2 socialIcon"/></a>
                 <a href="https://github.com/anandpothraj" target="_blank" rel="noreferrer"><BsGithub className="m-1 m-md-2 socialIcon"/></a>
                 <a href='https://twitter.com/PothrajAnand' target="_blank" rel="noreferrer"><BsTwitter className="m-2 socialIcon"/></a>
