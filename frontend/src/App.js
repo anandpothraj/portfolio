@@ -10,11 +10,15 @@ import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Feedback from './pages/Feedback';
 import Projects from './pages/Projects';
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from 'react-toastify';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 const App = () => {
   return (
     <Router>
+      <ToastContainer/>
         <Header/>
         <div className="bg-dark p-1">
         <Routes>
