@@ -22,3 +22,16 @@
 .colorYellow{
     color:#cd921e !important;
 }
+
+@media screen and (max-width: 768px) {
+    .imgWidth{
+        width: 50% !important;
+    } 
+    .textCenter{
+        text-align: center !important;
+    }
+    .mAuto{
+        width: fit-content !important;
+        margin: auto !important;
+    }
+}
